@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Animal life</title>
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        .card {
+          background-image: url("https://plus.unsplash.com/premium_photo-1661936361131-c421746dcd0d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2lsZGxpZmUlMjBwaG90b2dyYXBoeXxlbnwwfHwwfHx8MA%3D%3D");
+          background-size: cover;
+          background-position: center;
+          min-height: 100vh;
+          width: 100%;
+          color: whitesmoke;
+          padding: 20px;
+        }
+
+        .heading {
+          text-align: center;
+          font-size: 3rem;
+          font-family: Arial, sans-serif;
+          text-decoration: underline;
+          margin: 20px 0;
+          text-shadow: 2px 2px 4px wheat;
+        }
+
+        p {
+          font-size: 1rem;
+          line-height: 1.6;
+          margin: 5px 0;
+        }
+
+        a {
+          display: inline-block;
+          text-align: center;
+        }
+
+        .btn-mammals,
+        .btn-birds,
+        .btn-reptiles,
+        .btn-amphibians,
+        .btn-insects {
+          padding: 10px 20px;
+          text-decoration: none;
+          border-radius: 20px;
+          margin: 8px;
+          font-size: 1rem;
+          font-family: Arial, sans-serif;
+          box-shadow: 2px 2px 4px gray;
+          transition: background-color 0.3s ease;
+        }
+
+        .btn-mammals { 
+          background-color: antiquewhite; 
+        }
+        .btn-mammals:hover { 
+          background-color: lightcoral; 
+        }
+
+        .btn-birds { 
+          background-color: lightblue; 
+        }
+        .btn-birds:hover { 
+          background-color: lightgreen; 
+        }
+
+        .btn-reptiles { 
+          background-color: lightpink; 
+        }
+        .btn-reptiles:hover { 
+          background-color: lightyellow; 
+        }
+
+        .btn-amphibians { 
+          background-color: lightsalmon; 
+        }
+        .btn-amphibians:hover { 
+          background-color: lightseagreen; 
+        }
+
+        .btn-insects { 
+          background-color: lightgoldenrodyellow; 
+        }
+        .btn-insects:hover { 
+          background-color: peachpuff; 
+        }
+
+        @media (max-width: 768px) {
+          .heading {
+            font-size: 2rem;
+          }
+          p {
+            font-size: 0.9rem;
+          }
+          .btn-mammals,
+          .btn-birds,
+          .btn-reptiles,
+          .btn-amphibians,
+          .btn-insects {
+            font-size: 0.9rem;
+            padding: 8px 14px;
+            margin: 5px;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .heading {
+            font-size: 1.8rem;
+          }
+          p {
+            font-size: 0.85rem;
+          }
+          .btn-mammals,
+          .btn-birds,
+          .btn-reptiles,
+          .btn-amphibians,
+          .btn-insects {
+            display: block;
+            width: 100%;
+            margin: 6px 0;
+            font-size: 0.9rem;
+          }
+        }
+      </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1 class="heading">Wild life</h1>
+      <p>1. Wildlife refers to all living organisms that are not domesticated and exist in their natural habitats.</p>
+      <p>2. Wildlife includes a wide variety of species, including mammals, birds, reptiles, amphibians, insects.</p>
+      <p>3. Wildlife plays a crucial role in maintaining ecological balance and biodiversity.</p>
+      <p>4. Conservation efforts are essential to protect wildlife and their habitats from threats such as habitat loss, poaching and climate change.</p>
+      <p>5. Many organisations and individuals work towards wildlife conservation through education, awareness, and sustainable practices.</p>
+      <p>Click on the buttons below to learn more about different types of wildlife.</p>
+      <br>
+      <a href="mammals.html" class="btn-mammals">Mammals</a>
+      <a href="birds.html" class="btn-birds">Birds</a>
+      <a href="reptiles.html" class="btn-reptiles">Reptiles</a>
+      <a href="amphibians.html" class="btn-amphibians">Amphibians</a>
+      <a href="insects.html" class="btn-insects">Insects</a>
+    </div>
+  </body>
+</html>
